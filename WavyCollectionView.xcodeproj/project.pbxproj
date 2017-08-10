@@ -14,6 +14,7 @@
 		4D0189171F3CDA1200356013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0189161F3CDA1200356013 /* Assets.xcassets */; };
 		4D01891A1F3CDA1200356013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0189181F3CDA1200356013 /* LaunchScreen.storyboard */; };
 		4D0189231F3CE72400356013 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0189221F3CE72400356013 /* WavyFlowLayout.m */; };
+		4DCF8CAB1F3D00BF008FBD9B /* CustionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF8CAA1F3D00BF008FBD9B /* CustionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4D01891B1F3CDA1200356013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0189211F3CE72400356013 /* WavyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
 		4D0189221F3CE72400356013 /* WavyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
+		4DCF8CA91F3D00BF008FBD9B /* CustionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustionCell.h; sourceTree = "<group>"; };
+		4DCF8CAA1F3D00BF008FBD9B /* CustionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				4D0189111F3CDA1200356013 /* ViewController.m */,
 				4D0189211F3CE72400356013 /* WavyFlowLayout.h */,
 				4D0189221F3CE72400356013 /* WavyFlowLayout.m */,
+				4DCF8CA91F3D00BF008FBD9B /* CustionCell.h */,
+				4DCF8CAA1F3D00BF008FBD9B /* CustionCell.m */,
 				4D0189131F3CDA1200356013 /* Main.storyboard */,
 				4D01890A1F3CDA1200356013 /* Supporting Files */,
 			);
@@ -159,6 +164,7 @@
 				4D0189121F3CDA1200356013 /* ViewController.m in Sources */,
 				4D01890F1F3CDA1200356013 /* AppDelegate.m in Sources */,
 				4D01890C1F3CDA1200356013 /* main.m in Sources */,
+				4DCF8CAB1F3D00BF008FBD9B /* CustionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

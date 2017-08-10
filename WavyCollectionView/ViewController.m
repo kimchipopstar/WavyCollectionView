@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WavyFlowLayout.h"
+#import "CustionCell.h"
 
 @interface ViewController () <UICollectionViewDataSource>
 
@@ -44,7 +45,10 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    CustionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    
+    cell.testingLabel.text = [NSString stringWithFormat:@"%ld cell",(long)indexPath.row + 1];
+    
     
     return cell;
 
